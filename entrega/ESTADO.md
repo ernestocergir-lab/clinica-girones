@@ -7,7 +7,7 @@
 - [x] **1. Preparar el ordenador** — git, Node.js 22, pnpm y Claude Code instalados → `pasos/01-preparar-el-ordenador.md` — ✅ 9-nov-2026
 - [x] **2. Quedarte el código** — tu copia (Fork) en tu GitHub, descargada y compilando en local → `pasos/02-quedarte-el-codigo.md` — ✅ 9-nov-2026
 - [x] **3. Publicar la web** — desplegada en tu Vercel (o Railway) con URL provisional funcionando → `pasos/03-publicar-en-vercel-o-railway.md` — ✅ 9-nov-2026
-- [ ] **4. Conectar el dominio** — `clinicagirones.es` y `www` apuntan a tu despliegue, con candado (HTTPS), y el correo sigue funcionando → `pasos/04-conectar-el-dominio.md`
+- [x] **4. Conectar el dominio** — `clinicagirones.es` y `www` apuntan a tu despliegue, con candado (HTTPS), y el correo sigue funcionando → `pasos/04-conectar-el-dominio.md` — ✅ 9-nov-2026
 - [ ] **5. Formulario de contacto** — los mensajes de `/contacto` llegan de verdad al correo → `pasos/05-formulario-de-contacto.md`
 - [ ] **6. Cierre con Vicente** — Vicente ha borrado su copia en Railway; la web solo vive en tu cuenta → `pasos/06-cierre-con-vicente.md`
 - [ ] **7. Ya sabes hacer cambios** — has hecho al menos un cambio real con Claude y se ha publicado solo → `pasos/07-cambios-del-dia-a-dia.md`
@@ -29,7 +29,7 @@
 - Repositorio nuevo (URL): https://github.com/ernestocergir-lab/clinica-girones (fork; carpeta local conectada, pnpm build OK con 12 páginas)
 - Plataforma elegida (Vercel / Railway): Vercel (elegido 9-nov-2026)
 - URL provisional del despliegue: https://clinica-girones.vercel.app (11 rutas + foto equipo → 200, comprobado 9-nov-2026)
-- Fecha de cambio de DNS:
+- Fecha de cambio de DNS: 9-nov-2026 (A @ → 216.198.79.1, CNAME www → Vercel). HTTPS OK en ambos, raíz → 308 → www. MX/mail/SPF sin cambios (comprobado). Correo de prueba a recepcion@ recibido OK.
 - Servicio de envío del formulario:
 - Foto DNS antes del cambio (9-nov-2026, vía 8.8.8.8) — para volver atrás:
   - A `@` → 178.18.242.153 · CNAME `www` → 0nwdawk1.up.railway.app
