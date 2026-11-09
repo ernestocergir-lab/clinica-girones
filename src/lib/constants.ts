@@ -1615,7 +1615,7 @@ En Clínica Gironés diseñamos programas personalizados de ejercicio terapéuti
 // Metadata SEO
 export const SEO_CONFIG = {
   siteName: 'Clínica Gironés',
-  siteUrl: 'https://clinicagirones.es',
+  siteUrl: 'https://www.clinicagirones.es',
   defaultTitle: 'Clínica Gironés | Podología en València',
   defaultDescription:
     'Clínica de podología en València especializada en quiropodia, plantillas personalizadas, pie diabético y podología deportiva. Más de 15 años cuidando tus pies.',

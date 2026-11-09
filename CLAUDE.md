@@ -48,7 +48,7 @@ pnpm build      # comprobar que todo compila (hacerlo SIEMPRE antes de push)
 ## Cosas pendientes que debes conocer
 
 - ⚠️ **El formulario de `/contacto` NO envía nada**: solo simula el envío (`src/app/contacto/page.tsx`, función `onSubmit`). El paciente ve «enviado» pero el mensaje se pierde. Se arregla en `entrega/pasos/05-formulario-de-contacto.md`. Hasta entonces, si te lo preguntan, dilo claramente.
-- `siteUrl` en `src/lib/constants.ts` es `https://clinicagirones.es` (se usa para SEO, sitemap y robots). Si el dominio cambiara, cámbialo ahí.
+- `siteUrl` en `src/lib/constants.ts` es `https://www.clinicagirones.es` (Vercel redirige la raíz a www) (se usa para SEO, sitemap y robots). Si el dominio cambiara, cámbialo ahí.
 
 ## Cuando hace cambios del día a día (después de la entrega)
 
